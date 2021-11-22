@@ -17,7 +17,7 @@ const Peer = window.Peer;
   `.trim();
 
   const peer = (window.peer = new Peer({
-    key: --??--,
+    key: windows._SKYWAY_KEY_,
     debug: 3,
   }));
 
